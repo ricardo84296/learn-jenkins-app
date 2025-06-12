@@ -10,7 +10,7 @@ pipeline {
                 }
             }
             steps {
-                deleteDir()
+                //deleteDir()
                 sh '''                    
                     ls -la                    
                     node --version

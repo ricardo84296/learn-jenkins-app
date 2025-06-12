@@ -62,6 +62,7 @@ pipeline {
     post {
         always {
             junit 'jest-results/junit.xml'
+            cleanWs() 
         }
     }
 }
